@@ -1,18 +1,19 @@
-import { type PropsWithChildren, type ElementType, type ComponentPropsWithoutRef } from "react";
+import type {
+	PropsWithChildren,
+	ElementType,
+	ComponentPropsWithoutRef,
+} from "react";
 
 type ContainerProps<T extends ElementType> = PropsWithChildren & {
-  as?: T
-} & ComponentPropsWithoutRef<T>
+	as?: T;
+} & ComponentPropsWithoutRef<T>;
 
-export default function Container<C extends ElementType>(
-  {
-    as,
-    children,
-    ...props
-  }: ContainerProps<C>) {
-  const Component = as || "div"
-  
-  return (
-    <Component {...props}>{children}</Component>
-  )
+export default function Container<C extends ElementType>({
+	as,
+	children,
+	...props
+}: ContainerProps<C>) {
+	const Component = as || "div";
+
+	return <Component {...props}>{children}</Component>;
 }
