@@ -1,5 +1,5 @@
 # React Typescript Learning (Projetos de Aprendizado de React Typescript)
-Projets developed during the course "React &amp; TypeScript - The Practical Guide" from Udemy | Projetos desenvolvidos durante o Curso "React &amp; TypeScript - The Practical Guide" da Udemy 
+Projects developed during the course "React &amp; TypeScript - The Practical Guide" from Udemy | Projetos desenvolvidos durante o Curso "React &amp; TypeScript - The Practical Guide" da Udemy 
 
 ## 1 - Core Concepts (Conceitos Fundamentais)
 Introdução de conceitos básicos do TypeScript.
